@@ -22,3 +22,8 @@ spring :
 loggin:
   level:
     com.jeongkyun: DEBUG
+
+jwt:
+  header: Authorization
+  secret: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJOaWNrTmFtZSI6IkVyanVlciIsIlRlbXBBdXRoIjoiWSIsIktFWSI6IkhlbGxvV29ybGQiLCJBZ2UiOiIyOSIsInN1YiI6IlRlc3QiLCJleHAiOjE2MzUxNzg4NTF9.ad539kso90a8Hm5_Iv3xiXgrLJ4Qjo52sR7pXGr4Hr0
+  token-validity-in-seconds: 86400
